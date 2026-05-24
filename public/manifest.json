@@ -1,0 +1,28 @@
+{
+  "name": "DogTalk · 狗语翻译官",
+  "short_name": "DogTalk",
+  "description": "基于声学特征分析的狗狗声音情绪实时翻译应用",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#FF9800",
+  "background_color": "#FFF8E1",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
