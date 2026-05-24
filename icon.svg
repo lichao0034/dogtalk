@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#FF9800"/>
+  <circle cx="256" cy="256" r="220" fill="#FFB74D"/>
+
+  <!-- Dog face -->
+  <!-- Head -->
+  <ellipse cx="256" cy="260" rx="130" ry="120" fill="#8D6E63"/>
+
+  <!-- Left ear -->
+  <ellipse cx="148" cy="180" rx="50" ry="70" fill="#6D4C41" transform="rotate(-15 148 180)"/>
+  <!-- Right ear -->
+  <ellipse cx="364" cy="180" rx="50" ry="70" fill="#6D4C41" transform="rotate(15 364 180)"/>
+
+  <!-- Inner ears -->
+  <ellipse cx="148" cy="180" rx="30" ry="45" fill="#A1887F" transform="rotate(-15 148 180)"/>
+  <ellipse cx="364" cy="180" rx="30" ry="45" fill="#A1887F" transform="rotate(15 364 180)"/>
+
+  <!-- Face overlay (lighter) -->
+  <ellipse cx="256" cy="270" rx="95" ry="85" fill="#A1887F"/>
+
+  <!-- Eyes -->
+  <ellipse cx="215" cy="240" rx="18" ry="20" fill="white"/>
+  <ellipse cx="297" cy="240" rx="18" ry="20" fill="white"/>
+  <circle cx="219" cy="238" r="11" fill="#3E2723"/>
+  <circle cx="301" cy="238" r="11" fill="#3E2723"/>
+  <!-- Eye shine -->
+  <circle cx="224" cy="233" r="4" fill="white"/>
+  <circle cx="306" cy="233" r="4" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="256" cy="282" rx="20" ry="15" fill="#3E2723"/>
+  <!-- Nose shine -->
+  <ellipse cx="253" cy="278" rx="6" ry="4" fill="#5D4037" opacity="0.6"/>
+
+  <!-- Mouth -->
+  <path d="M240 297 Q256 318 272 297" stroke="#3E2723" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Tongue -->
+  <ellipse cx="256" cy="310" rx="12" ry="16" fill="#EF5350"/>
+  <line x1="256" y1="298" x2="256" y2="322" stroke="#C62828" stroke-width="1.5"/>
+
+  <!-- Eyebrows -->
+  <path d="M195 218 Q210 208 228 214" stroke="#5D4037" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M284 214 Q302 208 317 218" stroke="#5D4037" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Sound waves (right side) -->
+  <path d="M370 230 Q390 250 370 270" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M385 215 Q415 250 385 285" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M400 200 Q440 250 400 300" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+</svg>
